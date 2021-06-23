@@ -10,25 +10,26 @@
   font-family: 'Lobster', cursive;
   color: #ffffff !important;
 }
-.navbar-nav a:hover{
-  background-color: rgb(238, 229, 111);
-  color: rgb(81, 142, 233);
-}
+
 
 #header .logoFb{
   margin-left: 35px;
-  color:#000;
+  color:#ffffff;
 }
 #header .logoIns{
   margin-left: 10px;
-  color:#000;
+  color:#ffffff;
 }
 
 #header img {
   width: 80px;
   border-radius:35%;
   box-shadow: 0px 0px 15px 15px #fffb00;
-  -webkit-box-shadow: 0px 0px 15px 15px #fbff00;
+  -webkit-box-shadow: 0px 0px 15px 5px #fbff00;
+}
+
+#header a {
+  color: #ffffff;
 }
 
 #main .carousel-inner img {
@@ -88,6 +89,7 @@
 #footer {
   text-align: center;
   background-color: #db8727ef;
+  height: 50pt;
 }
 
 #footer a {
