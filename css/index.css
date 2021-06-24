@@ -1,0 +1,356 @@
+.navbar {
+  background-color: #db8727ef; }
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive; }
+
+.text-menu {
+  font-family: "Lobster", cursive;
+  color: #ffffff !important; }
+
+#header .logoFb {
+  margin-left: 35px;
+  color: #ffffff; }
+
+#header .logoIns {
+  margin-left: 10px;
+  color: #ffffff; }
+
+#header img {
+  width: 80px;
+  border-radius: 35%;
+  box-shadow: 0px 0px 15px 15px #fffb00;
+  -webkit-box-shadow: 0px 0px 15px 5px #fbff00; }
+
+#header a {
+  color: #ffffff; }
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(70%); }
+
+#carousel {
+  position: relative; }
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white; }
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%; }
+
+#place-time {
+  background-color: #b3b1b1;
+  color: white; }
+
+#place-time img {
+  max-width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.container-fluid {
+  text-align: center;
+  background-color: #e6e3e3;
+  color: #000000;
+  margin: 2px 3px; }
+
+.container-fluid a {
+  color: #000; }
+
+.container-fluid img {
+  height: auto;
+  width: 300px;
+  text-align: center; }
+
+#footer {
+  text-align: center;
+  background-color: #db8727ef;
+  height: 50pt; }
+
+#footer a {
+  color: black; }
+
+#footer .logo {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.navbarCT {
+  background-color: #5b6f55; }
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive; }
+
+.text-menu {
+  font-family: "Lobster", cursive;
+  color: #ffffff !important; }
+
+#header .logoFb {
+  margin-left: 35px;
+  color: #ffffff; }
+
+#header .logoIns {
+  margin-left: 10px;
+  color: #ffffff; }
+
+#header a {
+  color: #ffffff; }
+
+#header img {
+  width: 80px;
+  border-radius: 35%;
+  box-shadow: 0px 0px 15px 15px #fffb00;
+  -webkit-box-shadow: 0px 0px 15px 5px #fbff00; }
+
+/* Row container */
+.izquierdaCT {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.side {
+  flex: 20%;
+  background-color: #e1ff8f;
+  padding: 20px; }
+
+/* Main column */
+.derechaCT {
+  flex: 80%;
+  background-color: #f5f4a7;
+  padding: 20px;
+  text-align: center; }
+  .derechaCT img:hover {
+    transform: scale(2);
+    overflow: hidden; }
+
+@media screen and (max-width: 700px) {
+  .izquierdaCT,
+  .derechaCT {
+    flex-direction: column; } }
+
+#footerCT {
+  text-align: center;
+  background-color: #5b6f55;
+  height: 50pt; }
+  #footerCT a {
+    color: black; }
+
+#footerCT .logo {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.navbarSL {
+  background-color: #b81e73; }
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive; }
+
+.text-menu {
+  font-family: "Lobster", cursive;
+  color: #ffffff !important; }
+
+#header .logoFb {
+  margin-left: 35px;
+  color: #ffffff; }
+
+#header .logoIns {
+  margin-left: 10px;
+  color: #ffffff; }
+
+#header img {
+  width: 80px;
+  border-radius: 35%;
+  box-shadow: 0px 0px 15px 15px #fffb00;
+  -webkit-box-shadow: 0px 0px 15px 5px #fbff00; }
+
+#header a {
+  color: #ffffff; }
+
+/* Row container */
+.izquierdaSL {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.side {
+  flex: 20%;
+  background-color: #e1ff8f;
+  padding: 20px; }
+
+/* Main column */
+.derechaSL {
+  flex: 80%;
+  background-color: #f5f4a7;
+  padding: 20px;
+  text-align: center;
+  overflow: scroll; }
+
+#carta {
+  background-color: rgba(255, 255, 255, 0) !important;
+  height: 355px;
+  width: auto;
+  margin-left: 3%;
+  margin-bottom: -50px; }
+
+@media screen and (max-width: 700px) {
+  .izquierdaSL,
+  .derechaSL {
+    flex-direction: column; } }
+
+#footerSL {
+  text-align: center;
+  background-color: #b81e73;
+  height: 50pt; }
+
+#footerSL a {
+  color: black; }
+
+#footerSL .logo {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.navbarps {
+  background-color: #962e7fef; }
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive; }
+
+.text-menu {
+  font-family: "Lobster", cursive;
+  color: #ffffff !important; }
+
+#header .logoFb {
+  margin-left: 35px;
+  color: #ffffff; }
+
+#header .logoIns {
+  margin-left: 10px;
+  color: #ffffff; }
+
+#header img {
+  width: 80px;
+  border-radius: 35%;
+  box-shadow: 0px 0px 15px 15px #fffb00;
+  -webkit-box-shadow: 0px 0px 15px 5px #fbff00; }
+
+#header a {
+  color: #ffffff; }
+
+/* Row container */
+.izquierdaps {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.side {
+  flex: 20%;
+  background-color: #e1ff8f;
+  padding: 20px; }
+
+/* Main column */
+.derechaps {
+  flex: 80%;
+  background-color: #f5f4a7;
+  padding: 20px;
+  text-align: center;
+  overflow: scroll; }
+
+#carta {
+  background-color: rgba(255, 255, 255, 0) !important;
+  height: 355px;
+  width: auto;
+  margin-left: 3%;
+  margin-bottom: -50px; }
+
+@media screen and (max-width: 700px) {
+  .izquierdaps,
+  .derechaps {
+    flex-direction: column; } }
+
+#footerps {
+  text-align: center;
+  background-color: #962e7fef;
+  height: 50pt; }
+
+#footerps a {
+  color: black; }
+
+#footerps .logo {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.navbarPSM {
+  background-color: #b62d40ef; }
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive; }
+
+.text-menu {
+  font-family: "Lobster", cursive;
+  color: #ffffff !important; }
+
+#header .logoFb {
+  margin-left: 35px;
+  color: #ffffff; }
+
+#header .logoIns {
+  margin-left: 10px;
+  color: #ffffff; }
+
+#header img {
+  width: 80px;
+  border-radius: 35%;
+  box-shadow: 0px 0px 15px 15px #fffb00;
+  -webkit-box-shadow: 0px 0px 15px 5px #fbff00; }
+
+#header a {
+  color: #ffffff; }
+
+/* Row container */
+.izquierdaPSM {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.side {
+  flex: 20%;
+  background-color: #e1ff8f;
+  padding: 20px; }
+
+/* Main column */
+.derechaPSM {
+  flex: 80%;
+  background-color: #f5f4a7;
+  padding: 20px;
+  text-align: center;
+  overflow: scroll; }
+
+#carta {
+  background-color: rgba(255, 255, 255, 0) !important;
+  height: 355px;
+  width: auto;
+  margin-left: 3%;
+  margin-bottom: -50px; }
+
+@media screen and (max-width: 700px) {
+  .izquierdaPSM,
+  .derechaPSM {
+    flex-direction: column; } }
+
+#footerPSM {
+  text-align: center;
+  background-color: #b62d40ef;
+  height: 50pt; }
+
+#footerPSM a {
+  color: black; }
+
+#footerPSM .logo {
+  margin-left: 10%;
+  margin-right: 10%; }
