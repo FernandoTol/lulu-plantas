@@ -88,12 +88,12 @@
   text-align: center;
   padding: 20px;
   background: #faffe6;
-  h3{
-    color : #1a830c;
-    font-family: 'Raleway';
-  }
 }
 
+emar h3{
+  color : #1a830c;
+  font-family: 'Raleway';
+}
 #footer {
   text-align: center;
   background-color: #db8727ef;
