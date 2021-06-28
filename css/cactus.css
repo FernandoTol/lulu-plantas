@@ -51,12 +51,20 @@
   background-color: rgb(245, 244, 167);
   padding: 20px;
   text-align: center;
+}
 
+.card {
+  background-color: rgb(186, 214, 141);
+  border-radius: 20px;
+  padding: 5px;
 }
-.derechaCT img:hover {
-  transform: scale(2);
-  overflow: hidden;
+
+.card img {
+  width: auto;
+  height: 250px;
+  border-radius: 20px;
 }
+
 
 @media screen and (max-width: 700px) {
   .izquierdaCT,

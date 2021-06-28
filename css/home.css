@@ -79,6 +79,7 @@
 }
 
 .container-fluid img {
+  border-radius: 55px;
   height: auto;
   width: 300px;
   text-align: center;
@@ -90,10 +91,11 @@
   background: #faffe6;
 }
 
-emar h3{
+.map h3{
   color : #1a830c;
   font-family: 'Raleway';
 }
+
 #footer {
   text-align: center;
   background-color: #db8727ef;
