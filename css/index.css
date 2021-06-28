@@ -47,7 +47,7 @@
   height: 100%; }
 
 #place-time {
-  background-color: #b3b1b1;
+  background-color: #f7f0d9;
   color: white; }
 
 #place-time img {
@@ -57,7 +57,7 @@
 
 .container-fluid {
   text-align: center;
-  background-color: #e6e3e3;
+  background-color: #f7f0d9;
   color: #000000;
   margin: 2px 3px; }
 
@@ -68,6 +68,14 @@
   height: auto;
   width: 300px;
   text-align: center; }
+
+.map {
+  text-align: center;
+  padding: 20px;
+  background: #faffe6; }
+  .map h3 {
+    color: #1a830c;
+    font-family: 'Raleway'; }
 
 #footer {
   text-align: center;
