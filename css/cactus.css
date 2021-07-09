@@ -36,7 +36,30 @@
 .izquierdaCT {
   display: flex;
   flex-wrap: wrap;
+}
+
+.izquierdaCT div h2 {
   text-align: center;
+
+}
+.izquierdaCT div h3 {
+  text-align: center;
+
+}
+.izquierdaCT div a{
+  text-align: center;
+}
+.izquierdaCT div P{
+  text-align: center;
+}
+
+#curiosidades li {
+  text-align: left;
+}
+
+#cuidados li {
+  text-align: left;
+
 }
 
 .side {
