@@ -145,13 +145,4 @@ color: rgb(255, 255, 255);
     height: 350px;
   }
 
-  #carousel .overlay h1{
-
-    font-size: 20px;
-  }
-
-  #carousel .overlay p{
-
-    font-size: 10px;
-  }
 }
