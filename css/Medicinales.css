@@ -1,5 +1,5 @@
 .navbarPSM {
-  background-color: #b62d40ef;
+  background-color: #1560b6ef;
 }
 
 .navbar-brand {
@@ -40,27 +40,27 @@
 
 .izquierdaPSM {
   flex: 20%;
-  background-color: #ff8f8f;
+  background-color: #8fcdff;
   padding: 20px;
 }
 
 /* Main column */
 .derechaPSM {
   flex: 75%;
-  background-color: rgb(247, 221, 228);
+  background-color: rgb(221, 232, 247);
   padding: 25px;
   align-items: center;
   height: 1000px;
   overflow: scroll;
 }
 
-#carta{
+#carta {
   margin-bottom: 2%;
 }
 
-.card-title{
+.card-title {
   position: relative;
-  font-size:18px;
+  font-size: 18px;
 }
 
 .card {
@@ -84,7 +84,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 
   background: #26262600;
   overflow: hidden;
@@ -95,7 +95,7 @@
   height: 100%;
   position: absolute;
   box-sizing: border-box;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .cardt .details {
@@ -115,7 +115,7 @@
   font-size: 28px;
   padding: 3px;
 }
-.cardt .details .subtitle{
+.cardt .details .subtitle {
   color: #fff;
   font-size: 24px;
 }
@@ -133,8 +133,8 @@
   padding: 3px;
 }
 
-.imgBx2 img{
-  height:270px;
+.imgBx2 img {
+  height: 270px;
   width: 200px;
 }
 
@@ -159,18 +159,18 @@
     margin-left: 150px;
   }
 
-  #nameLargo{
-    top: -18px
+  #nameLargo {
+    top: -18px;
   }
 
-  #namexLargo{
-    top: -30px
+  #namexLargo {
+    top: -30px;
   }
 }
 
 @media only screen and (max-width: 376px) {
-    .cardt:hover .details {
+  .cardt:hover .details {
     top: 0;
     left: 0%;
-    }
+  }
 }
