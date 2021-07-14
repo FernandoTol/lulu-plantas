@@ -32,10 +32,16 @@
 }
 
 /* Row container */
-.izquierdaCT {
-  list-style-type: none;
+.side {
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
+}
+
+.izquierdaCT {
+  flex: 20%;
+  background-color: #e1ff8f;
+  padding: 20px;
 }
 
 .izquierdaCT div h2 {
@@ -51,26 +57,21 @@
   text-align: center;
 }
 
-#curiosidades li {
-  text-align: left;
-}
-
-#cuidados li {
-  text-align: left;
-}
-
-.side {
-  flex: 20%;
-  background-color: #e1ff8f;
-  padding: 20px;
-}
-
 /* Main column */
 .derechaCT {
   flex: 80%;
   background-color: rgb(245, 244, 167);
   padding: 20px;
   text-align: center;
+}
+
+#carta{
+  margin-bottom: 2%;
+}
+
+.card-title{
+  position: relative;
+  font-size:18px;
 }
 
 .card {
@@ -86,15 +87,69 @@
 
 .card img {
   width: 200px;
-  height: auto;
+  height: 100%;
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 575px) {
-  #carta {
-    margin-left: 150px;
-  }
+.cardt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  background: #26262600;
+  overflow: hidden;
 }
+
+.cardt .details {
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+.cardt .details {
+  background: #262626b6;
+  top: 0;
+  left: 300%;
+  border-radius: 20px;
+}
+.cardt:hover .details {
+  top: 0;
+  left: 0;
+}
+.cardt .details h2 {
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  font-size: 28px;
+  padding: 3px;
+}
+.cardt .details .subtitle{
+  color: #fff;
+  font-size: 24px;
+}
+
+#properties {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-style: italic;
+}
+
+.cardt .details .description {
+  color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 3px;
+}
+
+.imgBx2 img{
+  height:270px;
+  width: 200px;
+}
+
+/* Footer */
 
 #footerCT {
   text-align: center;
@@ -109,4 +164,26 @@
 #footerCT .logo {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+/* Media qery */
+@media only screen and (max-width: 575px) {
+  #carta {
+    margin-left: 150px;
+  }
+
+  #nameLargo{
+    top: -18px
+  }
+
+  #namexLargo{
+    top: -34px
+  }
+}
+
+@media only screen and (max-width: 376px) {
+    .cardt:hover .details {
+    top: 0;
+    left: 0%;
+    }
 }

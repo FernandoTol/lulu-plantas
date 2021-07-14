@@ -48,7 +48,7 @@
 .derechaps {
   flex: 75%;
   background-color: rgb(247, 221, 239);
-  padding: 20px;
+  padding: 25px;
   align-items: center;
   height: 1000px;
   overflow: scroll;
@@ -56,6 +56,11 @@
 
 #carta{
   margin-bottom: 2%;
+}
+
+.card-title{
+  position: relative;
+  font-size:18px;
 }
 
 .card {
@@ -71,7 +76,7 @@
 
 .card img {
   width: 200px;
-  height: auto;
+  height: 100%;
   border-radius: 20px;
 }
 
@@ -107,16 +112,34 @@
   color: #fff;
   text-align: center;
   border-bottom: 1px solid #fff;
+  font-size: 28px;
+  padding: 3px;
+}
+#properties {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-style: italic;
+}
 
-}
-.cardt .details p {
+.cardt .details .description {
   color: #fff;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 3px;
 }
+
+.imgBx2 img{
+  height:270px;
+  width: 200px;
+}
+
+/* Footer */
 
 #footerps {
   text-align: center;
   background-color: #962e7fef;
   height: 50pt;
+  font-weight: bold;
 }
 
 #footerps a {
@@ -129,12 +152,19 @@
 }
 
 
-
+/* Media qery */
 @media only screen and (max-width: 575px) {
   #carta {
     margin-left: 150px;
   }
 
+  #nameLargo{
+    top: -18px
+  }
+
+  #namexLargo{
+    top: -34px
+  }
 }
 
 @media only screen and (max-width: 376px) {
