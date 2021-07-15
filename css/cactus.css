@@ -157,6 +157,7 @@
   padding:50px 0;
   color:#f0f9ff;
   background-color:#5b6f55;
+  height:200px;
 }
 
 .footer-dark h3 {
@@ -227,7 +228,7 @@
 /* /Footer */
 
 /* Media qery */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 700px) {
   #carta {
     margin-left: 150px;
   }
@@ -238,6 +239,13 @@
 
   #namexLargo{
     top: -34px
+  }
+
+  #header img {
+    width: 40px;
+    border-radius: 35%;
+    box-shadow: 0px 0px 15px 15px #fffb00;
+    -webkit-box-shadow: 0px 0px 15px 5px #fbff00;
   }
 }
 
