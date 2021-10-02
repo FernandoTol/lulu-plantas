@@ -50,7 +50,7 @@
   background-color: rgb(247, 221, 228);
   padding: 25px;
   align-items: center;
-  height: 800px;
+  height: 1000px;
   overflow: scroll;
 }
 
@@ -215,7 +215,7 @@
 /* /Footer */
 
 /* Media qery */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1000px) {
   #carta {
     margin-left: 150px;
   }
